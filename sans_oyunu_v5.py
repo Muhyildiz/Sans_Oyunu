@@ -43,7 +43,7 @@ def winner(list):
     return count
 
 
-handle=open("odev2.txt")
+handle=open("kisiler.txt")
 adlar=list()
 paralar=list()
 miktarlar=list()
