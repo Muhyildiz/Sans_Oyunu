@@ -43,7 +43,7 @@ def winner(list):
     return count
 
 
-handle=open("kisiler.txt")
+handle=open("kisiler.txt") #dosya adresini eklemelisin
 adlar=list()
 paralar=list()
 miktarlar=list()
@@ -62,7 +62,7 @@ print(miktarlar)
 print(sayilar)
 print("lines =",satirsayisi) """
 
-sayilar_handle=open("sayilar.txt")
+sayilar_handle=open("sayilar.txt") #dosya adresini eklemelisin
 sayi_sirasi=list()
 for x in sayilar_handle:
     x=x.strip()
