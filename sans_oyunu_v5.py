@@ -56,11 +56,11 @@ for x in handle:
     adlar.append(ad(x))
     satirsayisi+=1
     #print(x)
-print(adlar)
+""" print(adlar)
 print(paralar)
 print(miktarlar)
 print(sayilar)
-print("lines =",satirsayisi)
+print("lines =",satirsayisi) """
 
 sayilar_handle=open("sayilar.txt")
 sayi_sirasi=list()
@@ -73,10 +73,10 @@ tur=0
 p=0
 while True: #check(paralar)==1:
     
-    print("Tur: ",tur)
+    #print("Tur: ",tur)
     enzenginindex=paralar.index(max(paralar))
     enzenginkisi=adlar[enzenginindex]     #en zengin kişiyi bulmak
-    print("en zengin kişi:",enzenginkisi,max(paralar) )
+    #print("en zengin kişi:",enzenginkisi,max(paralar) )
 
     i=int(sayi_sirasi[p])
     #i=7 # i have to change this 10 to satirsayisi
@@ -93,9 +93,9 @@ while True: #check(paralar)==1:
         print("sorry no one choosed this number")
         arti=0
     else:
-        print("i is :",i)
+        #print("i is :",i)
         indexi=sayilar.index(i) # index of lucky number
-        print("indexi =",indexi) #i dont have to show the index
+        """ print("indexi =",indexi) #i dont have to show the index """
         print(adlar[indexi],"choosed that lucky number")
     for i,j in zip(paralar,miktarlar):
         i=i-i*j
@@ -112,12 +112,12 @@ while True: #check(paralar)==1:
     if arti==1:
         paralar[indexi]=temppara[indexi]+temppara2[indexi]*float(10)       #parası = elindeki para + yatırdığı paranın 10 katı
         masaparasi=masaparasi-temppara2[indexi]*float(10)                 # kazabdığı parayı masa parasından çıkarma
-    print(paralar)
+    #print(paralar)
     for x in paralar:
         if x<1000:
             paralar[paralar.index(x)]=0
-    for (i,j) in zip(adlar,temppara):
-        print(i,j)
+    """for (i,j) in zip(adlar,temppara):
+        print(i,j) """
     
     tur=tur+1
     p=p+1
@@ -142,7 +142,7 @@ while True: #check(paralar)==1:
         print("#########################################################")
         break
     elif winner(paralar)==0:
-        print(temppara2)
+        """ print(temppara2) """
         
         print("\n\n\n#########################################################")
         print("#                   Bu Turda herkes elendi....             ##")
