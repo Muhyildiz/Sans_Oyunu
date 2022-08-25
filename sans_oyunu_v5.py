@@ -43,7 +43,7 @@ def winner(list):
     return count
 
 
-handle=open(r"C:\Users\mhdme\OneDrive\Masaüstü\pycodes\odev2.txt","r+")
+handle=open("odev2.txt")
 adlar=list()
 paralar=list()
 miktarlar=list()
@@ -62,7 +62,7 @@ print(miktarlar)
 print(sayilar)
 print("lines =",satirsayisi)
 
-sayilar_handle=open(r"C:\Users\mhdme\OneDrive\Masaüstü\pycodes\sayilar.txt","r+")
+sayilar_handle=open("sayilar.txt")
 sayi_sirasi=list()
 for x in sayilar_handle:
     x=x.strip()
