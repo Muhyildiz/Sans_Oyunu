@@ -1,4 +1,4 @@
-Yazılacak ödevde bir şans oyunu tasarlanacaktır. Oyunu oynayacak kişiler
+Yazılacak oyunda bir şans oyunu tasarlanacaktır. Oyunu oynayacak kişiler
 Kisiler.txt dosyasından okunacaktır. Her satırda bir kişi bulunmaktadır ve aşağıdaki formatta olacaktır.
 Raphael Adams#47624.35#0.58#5
 Karşılıkları: ad/soyad # parası # Her turda parasının ne kadarını yatırdığı # sürekli para yatırdığı sayı
