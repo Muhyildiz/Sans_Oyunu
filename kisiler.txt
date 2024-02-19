@@ -1,6 +1,5 @@
-mohamad#2000#0.5#7
+muuhammed#2000#0.5#7
 ali#3000#0.35#2
-besher#4000#0.45#9
 ahmet#5000#0.6#8
 abdullah#9000#0.62#10
 daniel#6500#0.48#1
